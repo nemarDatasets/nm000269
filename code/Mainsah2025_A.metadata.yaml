@@ -1,0 +1,67 @@
+_dataset:
+  class: Mainsah2025_A
+  code: Mainsah2025-A
+  doi: 10.13026/0byy-ry86
+  interval:
+  - 0
+  - 1.0
+  n_subjects: 13
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 32
+  hardware: g.USBamp (g.tec)
+  line_freq: 60.0
+  montage: standard_1020
+  n_channels: 32
+  sampling_rate: 256.0
+bci_application:
+  applications:
+  - speller
+  environment: laboratory
+  online_feedback: true
+cross_validation:
+  cv_method: calibration-then-test
+  evaluation_type:
+  - within_subject
+documentation:
+  country: US
+  data_url: https://physionet.org/content/bigp3bci/1.0.0/
+  description: 'BigP3BCI: the largest public P300 BCI dataset, containing EEG recordings from ~267 subjects across 20 studies
+    using 6x6 or 9x8 character grids with various stimulus paradigms.'
+  doi: 10.13026/0byy-ry86
+  institution: Duke University; East Tennessee State University
+  investigators:
+  - Boyla Mainsah
+  - Chance Fleeting
+  - Thomas Balmat
+  - Eric Sellers
+  - Leslie Collins
+  license: CC-BY-4.0
+  publication_year: 2025
+  repository: PhysioNet
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  n_classes: 2
+  paradigm: p300
+paradigm_specific:
+  detected_paradigm: p300
+participants:
+  health_status: healthy
+  n_subjects: 13
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  feature_extraction:
+  - P300_ERP_detection
+tags:
+  modality:
+  - visual
+  type:
+  - perception

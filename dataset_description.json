@@ -1,39 +1,40 @@
 {
-	"Name": "Mainsah2025-A",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"Boyla Mainsah",
-		"Chance Fleeting",
-		"Thomas Balmat",
-		"Eric Sellers",
-		"Leslie Collins"
-	],
-	"ReferencesAndLinks": [
-		"https://physionet.org/content/bigp3bci/1.0.0/"
-	],
-	"DatasetDOI": "doi:10.13026/0byy-ry86",
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.13026/0byy-ry86",
-			"URL": "https://physionet.org/content/bigp3bci/1.0.0/"
-		}
-	],
-	"Keywords": [
-		"visual",
-		"perception",
-		"p300",
-		"speller"
-	],
-	"PublicationYear": 2025
+  "Name": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Boyla Mainsah",
+    "Chance Fleeting",
+    "Thomas Balmat",
+    "Eric Sellers",
+    "Leslie Collins"
+  ],
+  "ReferencesAndLinks": [
+    "https://physionet.org/content/bigp3bci/1.0.0/"
+  ],
+  "DatasetDOI": "doi:10.13026/0byy-ry86",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.13026/0byy-ry86",
+      "URL": "https://physionet.org/content/bigp3bci/1.0.0/"
+    }
+  ],
+  "Keywords": [
+    "visual",
+    "perception",
+    "p300",
+    "speller"
+  ],
+  "PublicationYear": 2025,
+  "Version": "1.0.1"
 }

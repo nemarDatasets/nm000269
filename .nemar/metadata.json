@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
+  "description": "BigP3BCI Study A is a P300-based brain-computer interface dataset comprising EEG recordings from 13 healthy subjects performing a visual speller task using a 6x6 checkerboard stimulus paradigm. The dataset contains 32-channel EEG data sampled at 256 Hz with target and non-target event classifications, designed for P300 event-related potential detection and BCI performance evaluation. This is the original PhysioNet dataset (DOI: 10.13026/0byy-ry86), part of the larger BigP3BCI collection, the largest public P300 BCI dataset encompassing ~267 subjects across 20 studies.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels arranged in a standard 10-20 montage at a sampling rate of 256 Hz with 60 Hz line frequency filtering. Subjects performed a visual P300 speller task using a 6x6 character grid with row-column stimulus presentation. Each subject completed one session with target and non-target visual stimuli presented in a calibration-then-test cross-validation design.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Boyla Mainsah": {},
     "Chance Fleeting": {
@@ -15,6 +20,41 @@
     "Eric Sellers": {},
     "Leslie Collins": {}
   },
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "Humans",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006801"
+    },
+    {
+      "term": "speller paradigm"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.13026/0byy-ry86",
@@ -42,54 +82,21 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Mainsah2025-A",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "909.7 MB (390 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "Mainsah2025-A is a derivative P300 brain-computer interface dataset containing EEG recordings from 13 healthy subjects (1 session each) performing a visual speller task using a 6x6 checkerboard stimulus paradigm. The dataset comprises 32-channel EEG data sampled at 256 Hz with binary classification of target and non-target events, annotated using HED 8.4.0 schema. This dataset represents Study A of the BigP3BCI collection (10.13026/0byy-ry86), the largest public P300 BCI dataset, and is processed using the MOABB (Mother of All BCI Benchmarks) framework.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels arranged in a standard 10-20 montage, sampled at 256 Hz with a 60 Hz line frequency notch. Subjects performed a visual P300 speller task using a 6x6 checkerboard stimulus paradigm with row-column and random presentation modes. Trial intervals were defined from 0 to 1.0 seconds post-stimulus, with binary classification of target and non-target events.",
-  "keywords": [
-    {
-      "term": "P300"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "speller paradigm"
-    },
-    {
-      "term": "checkerboard stimulus"
-    }
-  ],
-  "source_hash": "c5ad4cbee7765f4704573b09e018e8777557ba2f89e110deafaf14e1241819df"
+  "source_hash": "29bd7b6be059315fce3cf60fa6a2d7fa1a4af2faea8307d0ba6eba3b24a8cd70"
 }

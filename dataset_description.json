@@ -14,7 +14,7 @@
   "ReferencesAndLinks": [
     "https://physionet.org/content/bigp3bci/1.0.0/"
   ],
-  "DatasetDOI": "doi:10.13026/0byy-ry86",
+  "DatasetDOI": "10.82901/nemar.nm000269",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -27,6 +27,9 @@
     {
       "DOI": "10.13026/0byy-ry86",
       "URL": "https://physionet.org/content/bigp3bci/1.0.0/"
+    },
+    {
+      "DOI": "doi:10.13026/0byy-ry86"
     }
   ],
   "Keywords": [

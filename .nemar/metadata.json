@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
-  "description": "BigP3BCI Study A is a P300-based brain-computer interface dataset comprising EEG recordings from 13 healthy subjects performing a visual speller task using a 6x6 checkerboard stimulus paradigm. The dataset contains 32-channel EEG data sampled at 256 Hz with target and non-target event classifications, designed for P300 event-related potential detection and BCI performance evaluation. This is the original PhysioNet dataset (DOI: 10.13026/0byy-ry86), part of the larger BigP3BCI collection, the largest public P300 BCI dataset encompassing ~267 subjects across 20 studies.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels arranged in a standard 10-20 montage at a sampling rate of 256 Hz with 60 Hz line frequency filtering. Subjects performed a visual P300 speller task using a 6x6 character grid with row-column stimulus presentation. Each subject completed one session with target and non-target visual stimuli presented in a calibration-then-test cross-validation design.",
+  "description": "BigP3BCI Study A is a derivative P300 brain-computer interface dataset containing 32-channel EEG recordings from 13 healthy subjects performing a visual speller task using a 6×6 checkerboard stimulus paradigm. The dataset comprises EEG data sampled at 256 Hz with binary classification of target and non-target events, annotated using HED 8.4.0 schema. This represents Study A of the largest public P300 BCI dataset and has been processed using the MOABB (Mother of All BCI Benchmarks) framework.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels in a standard 10-20 montage, sampled at 256 Hz with 60 Hz line frequency notch filtering. Subjects performed a visual P300 speller task using a 6×6 checkerboard stimulus paradigm with row-column and random presentation modes. Trial intervals were defined from 0 to 1.0 seconds post-stimulus.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,37 +22,30 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
+      "term": "P300"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "EEG"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "speller paradigm"
     },
     {
       "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "Humans",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006801"
-    },
-    {
-      "term": "speller paradigm"
     }
   ],
   "related_identifiers": [
@@ -98,5 +91,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "29bd7b6be059315fce3cf60fa6a2d7fa1a4af2faea8307d0ba6eba3b24a8cd70"
+  "source_hash": "6e13bee25a46964bd6428120d9fe2fcaedd465263b2f06606ed5321033eac4e2"
 }

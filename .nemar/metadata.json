@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
-  "description": "BigP3BCI Study A is a derivative P300 brain-computer interface dataset containing 32-channel EEG recordings from 13 healthy subjects performing a visual speller task using a 6×6 checkerboard stimulus paradigm. The dataset comprises EEG data sampled at 256 Hz with binary classification of target and non-target events, annotated using HED 8.4.0 schema. This represents Study A of the largest public P300 BCI dataset and has been processed using the MOABB (Mother of All BCI Benchmarks) framework.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels in a standard 10-20 montage, sampled at 256 Hz with 60 Hz line frequency notch filtering. Subjects performed a visual P300 speller task using a 6×6 checkerboard stimulus paradigm with row-column and random presentation modes. Trial intervals were defined from 0 to 1.0 seconds post-stimulus.",
+  "description": "BigP3BCI Study A is a derivative P300 brain-computer interface dataset containing 32-channel EEG recordings from 13 healthy subjects performing a visual speller task using a 6×6 checkerboard stimulus paradigm. Data were sampled at 256 Hz and annotated for binary classification of target and non-target events using HED 8.4.0 schema. This dataset represents the largest public P300 BCI collection and has been processed using the MOABB framework for standardized benchmarking.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels in a standard 10-20 montage, sampled at 256 Hz with 60 Hz line frequency notch filtering. Subjects performed a visual P300 speller task using a 6×6 checkerboard stimulus with row-column and random presentation modes. Trial intervals were defined from 0 to 1.0 seconds post-stimulus.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -60,11 +60,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000269",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
@@ -72,6 +67,11 @@
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000269",
+      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -81,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "909.7 MB (390 files)"
+    "4.1 GB (780 files)"
   ],
   "formats": [
     ".edf",
@@ -91,5 +91,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "6e13bee25a46964bd6428120d9fe2fcaedd465263b2f06606ed5321033eac4e2"
+  "source_hash": "02ee7851b84dad599f2cff196f842df16a740790d0b4b8cbaddfadd2e5de7e7d"
 }

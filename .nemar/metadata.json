@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
-  "description": "BigP3BCI Study A is a derivative P300 brain-computer interface dataset containing 32-channel EEG recordings from 13 healthy subjects performing a visual speller task using a 6×6 checkerboard stimulus paradigm. Data were sampled at 256 Hz and annotated for binary classification of target and non-target events using HED 8.4.0 schema. This dataset represents the largest public P300 BCI collection and has been processed using the MOABB framework for standardized benchmarking.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels in a standard 10-20 montage, sampled at 256 Hz with 60 Hz line frequency notch filtering. Subjects performed a visual P300 speller task using a 6×6 checkerboard stimulus with row-column and random presentation modes. Trial intervals were defined from 0 to 1.0 seconds post-stimulus.",
+  "description": "A derivative P300 brain-computer interface dataset (Study A of the BigP3BCI collection) with 32-channel EEG from 13 healthy subjects, one session each, performing a visual speller task with a 6x6 checkerboard paradigm. Events are labeled as target or non-target and annotated with HED 8.4.0. The data were processed and BIDS-formatted with the MOABB framework for machine-learning benchmarking.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) using 32 channels in a 10-20 montage at 256 Hz with a 60 Hz line-frequency notch. Subjects performed a visual P300 speller with a 6x6 checkerboard stimulus in row-column and random presentation modes. Epochs spanned 0 to 1.0 s post-stimulus with binary target/non-target labels.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,30 +22,22 @@
   },
   "keywords": [
     {
-      "term": "P300"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "P300"
     },
     {
-      "term": "speller paradigm"
+      "term": "brain-computer interface"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "speller"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "MOABB"
     }
   ],
   "related_identifiers": [
@@ -60,16 +52,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.21105/joss.01896",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1038/s41597-019-0104-8",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "https://nemar.org/dataset/nm000269",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
@@ -81,7 +63,7 @@
     "eeg"
   ],
   "sizes": [
-    "4.1 GB (780 files)"
+    "3.85 GB (780 files)"
   ],
   "formats": [
     ".edf",

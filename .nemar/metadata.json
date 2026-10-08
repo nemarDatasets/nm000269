@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
-  "description": "A derivative P300 brain-computer interface dataset (Study A of the BigP3BCI collection) with 32-channel EEG from 13 healthy subjects, one session each, performing a visual speller task with a 6x6 checkerboard paradigm. Events are labeled as target or non-target and annotated with HED 8.4.0. The data were processed and BIDS-formatted with the MOABB framework for machine-learning benchmarking.",
-  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) using 32 channels in a 10-20 montage at 256 Hz with a 60 Hz line-frequency notch. Subjects performed a visual P300 speller with a 6x6 checkerboard stimulus in row-column and random presentation modes. Epochs spanned 0 to 1.0 s post-stimulus with binary target/non-target labels.",
+  "description": "A derivative P300 brain-computer interface dataset (Study A of the BigP3BCI collection) containing 32-channel EEG recordings from 13 healthy subjects, each with one session, performing a visual speller task with a 6x6 checkerboard stimulus paradigm. Data are sampled at 256 Hz, annotated with HED 8.4.0, and labeled for binary target versus non-target classification. The dataset was processed with the MOABB framework and re-hosted in BIDS format for benchmarking.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) using 32 channels in a standard 10-20 montage at 256 Hz with a 60 Hz line-frequency notch. Participants performed a visual P300 speller task with a 6x6 checkerboard paradigm using row-column and random presentation modes. Epochs spanned 0 to 1.0 s post-stimulus.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -31,7 +31,7 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "speller"
+      "term": "visual speller"
     },
     {
       "term": "event-related potentials"
@@ -73,5 +73,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e64196d5fc9bebe4a0a70c5903f8bc84030525bd072dcca5d4f6c7a4238415ba"
+  "source_hash": "5a8446baf093f7de14ae2e0e02bd8e380b7bd72316ad17c5836c941f67053ff3"
 }

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study A — P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
-  "description": "A derivative P300 brain-computer interface dataset (Study A of the BigP3BCI collection) containing 32-channel EEG recordings from 13 healthy subjects, each with one session, performing a visual speller task with a 6x6 checkerboard stimulus paradigm. Data are sampled at 256 Hz, annotated with HED 8.4.0, and labeled for binary target versus non-target classification. The dataset was processed with the MOABB framework and re-hosted in BIDS format for benchmarking.",
-  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) using 32 channels in a standard 10-20 montage at 256 Hz with a 60 Hz line-frequency notch. Participants performed a visual P300 speller task with a 6x6 checkerboard paradigm using row-column and random presentation modes. Epochs spanned 0 to 1.0 s post-stimulus.",
+  "description": "A derivative P300 brain-computer interface dataset containing 32-channel EEG recordings from 13 healthy subjects performing a visual speller task with a 6x6 checkerboard stimulus paradigm. It is Study A of the BigP3BCI collection and was processed with the MOABB framework. Target and non-target events are annotated with HED 8.4.0 for binary classification.",
+  "methods_description": "EEG was acquired with a g.USBamp amplifier (g.tec) using 32 channels in a standard 10-20 montage, sampled at 256 Hz with a 60 Hz notch filter. Subjects completed a visual P300 speller task with row-column and random presentation modes. Epochs spanned 0 to 1.0 s post-stimulus.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -37,7 +37,14 @@
       "term": "event-related potentials"
     },
     {
-      "term": "MOABB"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     }
   ],
   "related_identifiers": [
@@ -70,8 +77,9 @@
     ".json",
     ".md",
     ".tsv",
+    ".txt",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "5a8446baf093f7de14ae2e0e02bd8e380b7bd72316ad17c5836c941f67053ff3"
+  "source_hash": "00b9ed8b430cc6944207faf562336904a80f48e77e8a4de43e18082fd70c31d7"
 }

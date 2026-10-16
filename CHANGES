@@ -1,0 +1,5 @@
+1.0.5 2026-10-16
+  - sourcedata: added SHA256SUMS.txt (980,915 bytes), PhysioNet's checksum index of bigP3BCI 1.0.0
+    (https://physionet.org/files/bigp3bci/1.0.0/SHA256SUMS.txt), unchanged. moabb.datasets.Mainsah2025_A reads it before the recordings;
+    listed without a subject. All 390 deposited files match its SHA-256 entries.
+    No existing file changed; the BIDS tree is unchanged.
